@@ -69,7 +69,7 @@ function exerciseDog(dogName,dogBreed) {
   for (i = 0; i < routine.length; i++) {
     let routine = [wakeDog,leashDog
     ,walkToPark,throwFrisbee,walkHome,unleashDog];
-    response.push(routine[i] (dogName, dogBreed));
+    response.push(routine[i](dogName, dogBreed));
   }
 return response;
 }
