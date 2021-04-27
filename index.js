@@ -64,14 +64,10 @@ for (i = 0; i < routine.length; i++) {
 */
 
 function exerciseDog(dogName,dogBreed) {
-let message=[];
-
+  let response=[];
   for (i = 0; i < routine.length; i++) {
-    let routine = [wakeDog,leashDog
-    ,walkToPark,throwFrisbee,walkHome,unleashDog];
-    message.push(routine[i](dogName,dogBreed));
-
-
+    response.push(routine[i] (dogName, dogBreed));
   }
-  return message;
+return response;
 }
+
