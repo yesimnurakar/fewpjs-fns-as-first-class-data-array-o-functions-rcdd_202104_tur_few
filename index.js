@@ -70,4 +70,3 @@ function exerciseDog(dogName,dogBreed) {
   }
 return response;
 }
-
